@@ -9,9 +9,11 @@ system_prompt3 = "How is it achieved currently ? Generate related questionnaire 
 system_prompt4 = "Gather knowledge on the technique"
 system_prompt5 = "Generate and suggest quantitative KPIs and validated by user"
 
-print(system_prompt1)
-##llmresponse1 = useLLM(system_prompt1)
+##print(system_prompt1)
+llmresponse1 = useLLM(system_prompt1)
 ##llmresponse2 = useLLM(system_prompt2)
 ##llmresponse3 = useLLM(system_prompt3)
 ##llmresponse4 = useLLM(system_prompt4)
 ##llmresponse5 = useLLM(system_prompt5)
+
+print(llmresponse1)
